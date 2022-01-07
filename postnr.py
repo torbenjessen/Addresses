@@ -12,7 +12,7 @@ while True:
     zipcode = input("Indtast postnummer:")
     x = zipcode.isnumeric()
     if x !=True or len(str(zipcode)) != 4:
-        print("Den fortod jeg ikke - indtast 4 tal f.eks 1441.")
+        print("Den forstod jeg ikke - indtast 4 tal f.eks 1441.")
         continue
     else:
         #zipcode was successfully parsed!
